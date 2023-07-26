@@ -1,0 +1,164 @@
+@charset "UTF-8";
+article{
+    top: 0px;
+    left:0px;
+    height: 100%;
+    position: fixed;
+    width: 220px;
+    background-color: #7BA8FF;
+}
+article h1{
+    margin-left: 25px;
+    line-height: 30px;
+    color: white;
+    text-align: left;
+}
+#item{
+    margin-top: 100px;
+}
+ul li{
+    margin-right: 50px;
+    list-style-type: none;
+    border-bottom: 2px solid white;
+    margin-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+ul li div{
+    border-top: 2px solid white;
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+}
+
+section{
+    top: 0px;
+    left: 220px;
+    position: fixed;
+    width: 1220px;
+    height: 100%;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+table {
+    border: 1.5px solid #444444;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+th, td {
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#div1{
+    padding: 20px;
+    height: 60px;
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    padding-top: 40px;
+    transform: translate(-50%, -50%);
+}
+
+#div2{
+    padding: 20px;
+    height: 60px;
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    padding-top: 40px;
+    transform: translate(-50%, -50%);
+}
+
+#div3{
+    padding: 20px;
+    height: 60px;
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    padding-top: 40px;
+    transform: translate(-50%, -50%);
+}
+
+#box2{
+    position: fixed;
+    left: 1250px;
+    top:150px;
+}
+.donut {
+  width: calc(100% - 16px);
+  padding-bottom: calc(100% - 16px);
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.donut::before {
+  color: #fff;
+  width: 70%;
+  background: #264057;
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  display: block;
+  content: attr(data-percent);
+  transform: skew(-0.03deg);
+  margin: auto;
+  font-weight: 800;
+  font-size: 2vw;
+  padding: calc(35% - 1.3vw) 0;
+}
+.donut-container {
+  margin: 0 40vw 1rem 40vw;
+}
+#grapgo{
+	position: fixed;
+	top:400px;
+}
+
+.situation{
+	background-color:#6EEE87;
+	border-radius: 30px;
+	display: table-cell;
+  	vertical-align: middle;
+	width: 200px;
+	height: 100px; 
+	font-size: 30pt;
+	font-weight: 900;
+}
+
+#situation2{
+	background-color:#6EEE87;
+	border-radius: 30px;
+	display: table-cell;
+  	vertical-align: middle;
+	width: 200px;
+	height: 100px; 
+	font-size: 30pt;
+	font-weight: 900;
+}
+
+#situ{
+	text-align: center;
+	width: 200px;
+}
+#tasitu{
+	border:none;
+}
